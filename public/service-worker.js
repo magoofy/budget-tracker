@@ -12,7 +12,7 @@ const FILES_TO_CACHE = [
     "service-worker.js",
     "manifest.webmanifest",
     "favicon.ico",
-    "index.js",
+    "/index.js",
 ];
 
 self.addEventListener("install", function (evt) {
